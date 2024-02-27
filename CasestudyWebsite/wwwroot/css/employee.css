@@ -1,0 +1,36 @@
+﻿body {}
+
+
+div.error {
+    color: #fff;
+    margin: 5px 0px;
+    padding-left: 3px;
+    background: #ad3c3f;
+    border: 1px solid #e84e4f;
+    border-radius: 5px;
+}
+
+#title {
+    font-family: 'Oswald', sans-serif;
+}
+
+#status, #heading {
+    background-color: #199fd8;
+    color: #fff;
+}
+
+button.list-group-item {
+    color: #fff;
+    background-color: #188ec7;
+    font-size: larger;
+    transition: background-color linear 200ms;
+}
+
+button.list-group-item:hover {
+        background-color: #399fb8;
+}
+
+#pdfbutton {
+    width: 25%;
+    margin: 4px 0px;
+}
